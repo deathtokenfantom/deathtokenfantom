@@ -3,15 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Death</title>
+    <title>Death Token</title>
     <link rel="icon" href="favicon.ico">
     <style>
-        body {
-            font-family: Arial, sans-serif;
+        /* Resetting default styles */
+        * {
+            box-sizing: border-box;
             margin: 0;
             padding: 0;
+        }
+        body {
+            font-family: Arial, sans-serif;
             background-color: #000;
             color: #fff;
+            line-height: 1.6;
         }
         header {
             background-color: #000;
@@ -19,23 +24,23 @@
             text-align: center;
         }
         nav {
-            background-color: #f4f4f4;
+            background-color: #333;
             padding: 10px 0;
             text-align: center;
         }
         nav a {
             text-decoration: none;
-            color: #333;
+            color: #fff;
             padding: 0 20px;
             transition: color 0.3s ease;
         }
         nav a:hover {
-            color: #000;
+            color: #ccc;
         }
         section {
             padding: 20px;
             text-align: center;
-            max-width: 600px;
+            max-width: 800px;
             margin: 0 auto;
             margin-bottom: 50px;
         }
@@ -46,6 +51,7 @@
             position: fixed;
             bottom: 0;
             width: 100%;
+            font-size: 14px;
         }
         .token-details {
             margin-top: 30px;
@@ -54,12 +60,26 @@
         .projects-content {
             margin-bottom: 30px; /* Added margin-bottom for spacing */
         }
+        /* Custom styles */
+        h2 {
+            color: #FF5722; /* Orange color */
+            margin-bottom: 20px;
+        }
+        p {
+            color: #ccc;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
     </style>
 </head>
 <body>
     <header>
-        <img src="deathlogo.jpg" alt="Death Logo" style="max-width: 200px;">
-        <p style="margin-top: 10px;">CA: 0x5e21101D39d3CEc021d2D5548cC10d124f597Af2</p>
+        <img src="deathlogo.jpg" alt="Death Logo">
+        <p>Contract Address: 0x5e21101D39d3CEc021d2D5548cC10d124f597Af2</p>
     </header>
     <nav>
         <a href="https://twitter.com/DeathtokenFTM" target="_blank">Twitter</a>
@@ -69,7 +89,7 @@
     </nav>
     <section>
         <h2>About Us</h2>
-        <p>Best Memecoin we gona dai =)</p>
+        <p>Best Meme coin, we gon' die =)</p>
         <div class="token-details">
             <p><strong>Token Name:</strong> Death</p>
             <p><strong>Ticker:</strong> $DEATH</p>
@@ -79,7 +99,7 @@
     </section>
     <section>
         <h2>Projects</h2>
-        <p class="projects-content">none xD just kidding (i have no idea what im doing xd)</p>
+        <p class="projects-content">None xD just kidding (I have no idea what I'm doing xd)</p>
     </section>
     <footer>
         <p>Built by Death Team | Backed by Ghosts</p>
