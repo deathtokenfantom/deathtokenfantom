@@ -34,6 +34,8 @@
             color: #fff;
             transition: color 0.3s ease;
             padding: 0 10px; /* Added padding between menu items */
+            display: block; /* Display each menu item as a block element */
+            margin-bottom: 10px; /* Add space between menu items */
         }
         nav a:hover {
             color: #FF5722;
@@ -92,11 +94,14 @@
         }
         .image-container {
             display: flex;
+            flex-wrap: wrap; /* Wrap the images to the next line on smaller screens */
             justify-content: space-between;
             margin-top: 20px; /* Add spacing between the About section and images */
         }
         .image-container img {
-            width: 45%; /* Set width for each image */
+            width: 100%; /* Set width for each image to take full width on small screens */
+            max-width: 48%; /* Set max width for each image */
+            margin-bottom: 10px;
         }
     </style>
 </head>
@@ -112,6 +117,8 @@
         <a href="https://discord.gg/eeUPXVKQum" target="_blank">Discord</a>
         <a href="https://bitcoin.org/en/bitcoin-paper" target="_blank" class="whitepaper-link">Whitepaper</a>
         <a href="https://ghosts-organization.gitbook.io/death-dao/" target="_blank">Docs</a>
+        <a href="https://deathswap.com" target="_blank">DeathSwap</a>
+        <a href="https://deathcasino.com" target="_blank">DeathCasino</a>
     </nav>
     <div class="about-section">
         <h2 class="about-title">About The Project</h2>
