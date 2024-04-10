@@ -22,12 +22,13 @@
             background-color: #000;
             padding: 20px 0;
             text-align: center;
-            border-bottom: 2px solid #FF5722;
+            border-bottom: 2px solid #00FF80; /* Changed border color to green-lime */
         }
         nav {
             background-color: #333;
             padding: 10px 0;
             text-align: center;
+            border-bottom: 2px solid #00FF80; /* Changed border color to green-lime */
         }
         nav a {
             text-decoration: none;
@@ -52,34 +53,15 @@
         h2 {
             color: white; /* Changed title color to white */
             margin-bottom: 20px;
+            text-align: center; /* Center align the title */
         }
         p {
             color: #ccc;
         }
-        img {
+        video {
             max-width: 250px; /* Increased max-width for the logo */
             height: auto;
             border-radius: 5px;
-            margin-bottom: 10px;
-        }
-
-        /* New styles for the added section */
-        .about-section {
-            background-color: #000;
-            padding: 20px;
-        }
-        .about-box {
-            border: 3px solid;
-            border-image-slice: 1;
-            border-width: 3px;
-            border-image-source: linear-gradient(120deg, #00FF00, #00FF80); /* Changed to green-lime gradient */
-            padding: 10px;
-            margin: 0 auto; /* Center the box */
-            max-width: 600px; /* Set a maximum width */
-        }
-        .about-title {
-            color: white;
-            text-align: center;
             margin-bottom: 10px;
         }
 
@@ -105,7 +87,7 @@
 </head>
 <body>
     <header>
-        <img src="deathlogofinal1.mp4" alt="Logo">
+        <video src="deathlogofinal1.mp4" autoplay muted loop></video>
         <p> $DEATH:   0x5e21101D39d3CEc021d2D5548cC10d124f597Af2</p>
         <p> $DUST:    0x86564008BE7C84E4aeedc55598d7A0a5bDAEfe83</p>
         <p> $DFTM:    0x613E4d1EC6814a3Be575a4d6E5f37A1d22802e85</p>
@@ -118,12 +100,8 @@
         <a href="---------" target="_blank">DeathSwap</a>
         <a href="---------" target="_blank">DeathCasino</a>
     </nav>
-    <div class="about-section">
-        <h2 class="about-title">About The Project</h2>
-        <div class="about-box">
-            <p>Death DAO aims to build a fullstack decentralized ecosystem that combines DEX and Casino. Currently we are building on web 2 and 3, however we aim to be fully decentralized when tech stack is ready.</p>
-        </div>
-    </div>
+    <h2>About The Project</h2>
+    <p>Death DAO aims to build a fullstack decentralized ecosystem that combines DEX and Casino. Currently we are building on web 2 and 3, however we aim to be fully decentralized when tech stack is ready.</p>
     <div class="image-section">
         <h2>Team Members</h2>
         <div class="image-container">
