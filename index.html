@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title style="color: white;">Death DAO</title>
+    <title>Death DAO</title>
+    <meta name="description" content="Join Death DAO, backed by Boggdanoff Ventures and Wojak Capital.">
     <link rel="icon" href="finallogo1.ico">
     <style>
         /* Resetting default styles */
@@ -14,7 +15,7 @@
         }
         body {
             font-family: Arial, sans-serif;
-            background-color: #000; /* Changed background color to black */
+            background-color: #000; /* Background color set to black */
             color: #fff;
             line-height: 1.6;
         }
@@ -32,11 +33,11 @@
             text-decoration: none;
             color: #fff;
             transition: color 0.3s ease;
-            padding: 5px 10px; /* Added padding between menu items */
-            font-size: 14px; /* Adjusted font size to make menu items smaller */
+            padding: 5px 10px; /* Padding between menu items */
+            font-size: 14px; /* Font size for menu items */
         }
         nav a:hover {
-            color: limegreen; /* Changed hover color to green-lime */
+            color: limegreen; /* Hover color */
         }
         footer {
             background-color: #000;
@@ -50,39 +51,47 @@
         }
         /* Custom styles */
         h2 {
-            color: white; /* Changed title color to white */
+            color: white; /* Title color */
             margin-bottom: 20px;
             text-align: center; /* Center align the title */
         }
         p {
             color: #ccc;
             text-align: center; /* Center align the text */
-            margin-bottom: 10px; /* Added margin bottom for spacing between paragraphs */
+            margin-bottom: 10px; /* Spacing between paragraphs */
         }
         video {
-            max-width: 250px; /* Increased max-width for the logo */
+            max-width: 250px; /* Logo max-width */
             height: auto;
             border-radius: 5px;
             margin-bottom: 10px;
         }
-
-        /* New styles for the added section */
         .image-section {
             background-color: #222; /* Darker background */
             padding: 20px;
             text-align: center;
-            margin-bottom: 50px; /* Add spacing below the pictures */
+            margin-bottom: 50px; /* Spacing below the pictures */
         }
         .image-container {
             display: flex;
-            justify-content: center; /* Center the images horizontally */
-            margin-top: 20px; /* Add spacing between the About section and images */
+            justify-content: center; /* Center images horizontally */
+            margin-top: 20px; /* Spacing between About section and images */
         }
         .image-container img {
-            width: 300px; /* Increased width for each image */
+            width: 300px; /* Image width */
             height: auto;
             border-radius: 10px;
-            margin: 0 10px; /* Add spacing between images */
+            margin: 0 10px; /* Spacing between images */
+        }
+        .video-section {
+            text-align: center;
+            margin: 20px 0; /* Spacing around the video */
+        }
+        .video-section iframe {
+            width: 100%;
+            max-width: 560px;
+            height: 315px;
+            border: none;
         }
     </style>
 </head>
@@ -95,16 +104,21 @@
     </nav>
     <header>
         <video src="deathlogofinal1.mp4" autoplay muted loop></video>
-        <p> $DEATH:   0x5e21101D39d3CEc021d2D5548cC10d124f597Af2</p>
+        <p> $DEATH: 0x5e21101D39d3CEc021d2D5548cC10d124f597Af2</p>
     </header>
-    <h2>Join Us, anon.</h2>
-    <div class="image-section">
-        <h2>Team Members</h2>
-        <div class="image-container">
-            <img src="bog.jpg" alt="Bog">
-            <img src="wojak.jpg" alt="Wojak">
+    <main>
+        <h2>Join Us, anon.</h2>
+        <div class="video-section">
+            <iframe src="https://www.youtube.com/embed/cgNU_QxaNkU" allowfullscreen></iframe>
         </div>
-    </div>
+        <section class="image-section">
+            <h2>Team Members</h2>
+            <div class="image-container">
+                <img src="bog.jpg" alt="Bog">
+                <img src="wojak.jpg" alt="Wojak">
+            </div>
+        </section>
+    </main>
     <footer>
         <p>Backed by Boggdanoff Ventures and Wojak Capital</p>
     </footer>
